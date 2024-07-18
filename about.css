@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(165deg, #9CECFB, #65C7F7, #0052D4);
+}
+
+.nav-heading {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure the nav bar is on top */
+}
+
+.nav-heading nav {
+    margin: 0;
+}
+
+.nav-heading nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    margin-top: 60px; /* Adjust this value based on the height of the nav bar */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+}
+
+.heading, .main {
+    margin: 0 50px;
+    position: relative;
+    text-align: center;
+}
+
+.heading::after {
+    content: '';
+    display: block;
+    margin: 10px auto;
+    width: 75px; /* Adjusted width of the line */
+    height: 8px; /* Adjusted height of the line */
+    background-color: #000;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.heading h1 {
+    font-size: 35px;
+}
+
+.main {
+    font-size: 25px;
+}
+
+.heading hr {
+    height: 8px;
+    border-radius: 15px;
+    background-color: black;
+    border:none;
+}

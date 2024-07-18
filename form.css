@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:linear-gradient(165deg, #0575E6, #021B79);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:white;
+   font-size:35px;
+   text-align:center;
+}
+
+/* Form Styles */
+form {
+    background:linear-gradient(165deg, #56CCF2, #2F80ED);
+    padding: 35px; /* Adjusted padding to make the form background larger */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px; /* Adjusted width for a bigger form */
+    width: 100%;
+    min-height: 400px; /* Added minimum height to increase the form background size */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width:350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    appearance: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background:linear-gradient(270deg, #B2FEFA, #0ED2F7);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+.home-link{
+    background-color: green;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+    transition: transform 0.8s ease-in-out;
+    text-decoration: none;
+}
+.home-link:hover{
+    transform: scale(1.3);
+}
+p{
+    color:skyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
+}
+nav{
+    background-color: greenyellow;
+    color:black;
+    font-size:25px;
+    padding:10px;
+    border-radius:10px;
+    width:90%;
+    text-align: center;
+}
+nav a{
+    color:black;
+    margin-left:20px;
+    text-decoration: none;
+    text-align: center;
+}

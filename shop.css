@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; 
+    background:linear-gradient(265deg, #C33764, #1D2671);
+}
+
+.heading {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.heading h1 {
+    margin: 0;
+    color:white;
+}
+
+.heading a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.heading a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox for products */
+.row1 {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between products */
+    padding: 20px;
+
+}
+
+.product1 {
+    flex: 1; /* Allow products to grow equally */
+    margin:10px;
+    padding: 20px;
+    background-color:black;
+    text-align: center; /* Center-align text and button */
+    border-radius: 20px;
+    color:white;
+}
+
+.product1 h1 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0; /* Margin below the title */
+}
+
+.product1 img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    border-radius: 15px;
+}
+
+.product1 button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */  
+}
+
+.product1 button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+footer{
+    color:white;
+    text-align: center;
+    padding:5px;    
+}
